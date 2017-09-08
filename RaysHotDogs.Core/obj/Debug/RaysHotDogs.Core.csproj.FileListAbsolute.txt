@@ -1,0 +1,6 @@
+H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll
+H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.pdb
+H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.csprojResolveAssemblyReference.cache
+H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.csproj.CoreCompileInputs.cache
+H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.dll
+H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.pdb
