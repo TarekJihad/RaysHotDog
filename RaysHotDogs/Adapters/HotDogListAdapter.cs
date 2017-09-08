@@ -10,6 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using RaysHotDogs.Core.Model;
+using RaysHotDogs.Utility;
 
 namespace RaysHotDogs.Adapters
 {
@@ -34,11 +35,21 @@ namespace RaysHotDogs.Adapters
         public override View GetView(int position, View convertView, ViewGroup parent)
         {
             var item = items[position];
-            if(convertView == null)
+            //if(convertView == null)
+            //{
+            //    convertView = context.LayoutInflater.Inflate(Android.Resource.Layout.SimpleListItem1, null);
+            //}
+            //convertView.FindViewById<TextView>(Android.Resource.Id.Text1).Text = item.Name;
+
+            var imageBitmap = ImageHelper.GetImageBitmapFromUrl("http://gillcleerenpluralsight.blob.core.windows.net/files/" + item.ImagePath + ".jpg");
+            if (convertView == null)
             {
-                convertView = context.LayoutInflater.Inflate(Android.Resource.Layout.SimpleListItem1, null);
+                convertView = context.LayoutInflater.Inflate(Resource.Layout.HotDogRowView, null);
             }
-            convertView.FindViewById<TextView>(Android.Resource.Id.Text1).Text = item.Name;
+            convertView.FindViewById<ImageView>(Resource.Id.hotDogImageView).SetImageBitmap(imageBitmap);
+            convertView.FindViewById<TextView>(Resource.Id.hotDogNameTextView).Text = item.Name;
+            convertView.FindViewById<TextView>(Resource.Id.shortDescriptionTextView).Text = item.ShortDescription;
+            convertView.FindViewById<TextView>(Resource.Id.priceTextView).Text = "$ " + item.Price;
             return convertView;
         }
     }

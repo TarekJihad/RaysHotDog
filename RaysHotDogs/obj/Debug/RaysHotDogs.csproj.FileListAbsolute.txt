@@ -19,3 +19,13 @@ H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\hotd
 H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.Core.dll.mdb
 H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\RaysHotDogs.Core.dll.mdb
 H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\hotdogmenuview.xml
+H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\hotdogrowview.xml
+H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\mainmenu.xml
+H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs\obj\Debug\res\drawable\raylogo.png
+H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\aboutview.xml
+H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\favoritehotdogfragment.xml
+H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\meatloversfragment.xml
+H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\veggieloversfragment.xml
+H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs\obj\Debug\res\drawable\veggieloversicon.png
+H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs\obj\Debug\res\drawable\favoritesicon.png
+H:\Source\Repos\XamarinAndroid\RaysHotDogs\RaysHotDogs\obj\Debug\res\drawable\meatloversicon.png

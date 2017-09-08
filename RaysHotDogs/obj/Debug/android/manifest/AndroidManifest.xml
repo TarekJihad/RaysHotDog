@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="RaysHotDogs.RaysHotDogs" android:versionCode="1" android:versionName="1.0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="RaysHotDogs.RaysHotDogs" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="21" />
+  <uses-permission android:name="android.permission.CALL_PHONE" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:allowBackup="true" android:label="@string/app_name" android:name="android.app.Application" android:debuggable="true">
+    <activity android:label="About Activity" android:name="md569b3812a35e0a5e98137aae69d6c065a.AboutActivity" />
     <activity android:label="Hot dog detail" android:name="md569b3812a35e0a5e98137aae69d6c065a.HotDogDetailActivity" />
-    <activity android:label="HotDogMenuActivity" android:name="md569b3812a35e0a5e98137aae69d6c065a.HotDogMenuActivity">
-      <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-        <category android:name="android.intent.category.LAUNCHER" />
-      </intent-filter>
-    </activity>
-    <activity android:label="RaysHotDogs" android:name="md569b3812a35e0a5e98137aae69d6c065a.MainActivity">
+    <activity android:label="HotDogMenuActivity" android:name="md569b3812a35e0a5e98137aae69d6c065a.HotDogMenuActivity" />
+    <activity android:label="RaysHotDogs" android:name="md569b3812a35e0a5e98137aae69d6c065a.MainActivity" />
+    <activity android:label="MenuActivity" android:name="md569b3812a35e0a5e98137aae69d6c065a.MenuActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
